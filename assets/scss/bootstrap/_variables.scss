@@ -455,7 +455,7 @@ $pagination-active-color:              #fff !default;
 $pagination-active-bg:                 $brand-primary !default;
 $pagination-active-border:             $brand-primary !default;
 
-$pagination-disabled-color:            $gray-light !default;
+$pagination-disabled-color:            #777 /*$gray-light*/ !default;
 $pagination-disabled-bg:               #fff !default;
 $pagination-disabled-border:           #ddd !default;
 
@@ -739,7 +739,7 @@ $panel-danger-heading-bg:     $state-danger-bg !default;
 //** Padding around the thumbnail image
 $thumbnail-padding:           4px !default;
 //** Thumbnail background color
-$thumbnail-bg:                $body-bg !default;
+$thumbnail-bg:                #e5e5e5 !default;
 //** Thumbnail border img color
 $thumbnail-img-border:            #2280a8 !default;
 //** Thumbnail border color

@@ -379,7 +379,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: #2280a8;
+  background-color: #e5e5e5;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -4077,7 +4077,7 @@ tbody.collapse.in {
   .pagination > .disabled > a,
   .pagination > .disabled > a:hover,
   .pagination > .disabled > a:focus {
-    color: white;
+    color: #777;
     background-color: #fff;
     border-color: #ddd;
     cursor: not-allowed; }
@@ -4156,7 +4156,7 @@ tbody.collapse.in {
   .pager .disabled > a:hover,
   .pager .disabled > a:focus,
   .pager .disabled > span {
-    color: white;
+    color: #777;
     background-color: #fff;
     cursor: not-allowed; }
 
@@ -4316,7 +4316,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857;
-  background-color: #2280a8;
+  background-color: #e5e5e5;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -6043,7 +6043,7 @@ button.close {
   /* line 18, ../scss/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 5, ../scss/style.scss */
+/* line 6, ../scss/style.scss */
 .slider-wrapper {
   position: relative;
   overflow: hidden;
@@ -6053,13 +6053,13 @@ button.close {
   border: 1px solid #000;
   box-shadow: 0 3px 5px #666;
   max-height: 400px; }
-  /* line 14, ../scss/style.scss */
+  /* line 15, ../scss/style.scss */
   .slider-wrapper .slider {
     position: relative;
     width: 100%;
     margin: 0 auto;
     background: #1b1b1b; }
-  /* line 21, ../scss/style.scss */
+  /* line 22, ../scss/style.scss */
   .slider-wrapper p {
     position: absolute;
     top: -200px;
@@ -6070,47 +6070,47 @@ button.close {
     color: #fff;
     white-space: nowrap;
     text-transform: uppercase; }
-  /* line 33, ../scss/style.scss */
+  /* line 34, ../scss/style.scss */
   .slider-wrapper .claim {
     line-height: 100%; }
-  /* line 37, ../scss/style.scss */
+  /* line 38, ../scss/style.scss */
   .slider-wrapper .teaser {
     padding: 0.5% 1.5%;
     font-size: 14px;
     line-height: 100%; }
-  /* line 43, ../scss/style.scss */
+  /* line 44, ../scss/style.scss */
   .slider-wrapper .small {
     width: 250px;
     padding-left: 0;
     padding-right: 0px;
     text-align: center; }
 
-/* line 49, ../scss/style.scss */
+/* line 50, ../scss/style.scss */
 .light-green {
   background: #95C542; }
 
-/* line 50, ../scss/style.scss */
+/* line 51, ../scss/style.scss */
 .green {
   background: #7CB761; }
 
-/* line 51, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .orange {
   background: #EF7D00; }
 
-/* line 52, ../scss/style.scss */
+/* line 53, ../scss/style.scss */
 .turky {
   background: #348E8A; }
 
-/* line 53, ../scss/style.scss */
+/* line 54, ../scss/style.scss */
 .white {
   background: #fff;
   color: #333; }
 
-/* line 55, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 .body {
   background-color: #a2a2a2; }
 
-/* line 59, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 .bloc_page {
   z-index: 2;
   padding-bottom: 20px;
@@ -6122,16 +6122,16 @@ button.close {
   background-color: #f4f3f3;
   color: #454545; }
   @media (min-width: 992px) {
-    /* line 66, ../scss/style.scss */
+    /* line 67, ../scss/style.scss */
     .bloc_page .vertical-align {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: row; } }
-  /* line 77, ../scss/style.scss */
+  /* line 78, ../scss/style.scss */
   .bloc_page .cyan {
     color: #3aa9d2; }
-  /* line 81, ../scss/style.scss */
+  /* line 82, ../scss/style.scss */
   .bloc_page hr {
     background-color: #dddcdc;
     background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
@@ -6139,59 +6139,59 @@ button.close {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
     border: 0;
     height: 1px; }
-  /* line 90, ../scss/style.scss */
+  /* line 91, ../scss/style.scss */
   .bloc_page .text-header {
     min-height: 58px; }
-    /* line 93, ../scss/style.scss */
+    /* line 94, ../scss/style.scss */
     .bloc_page .text-header h4 {
       font-style: italic;
       font-weight: bold; }
-    /* line 98, ../scss/style.scss */
+    /* line 99, ../scss/style.scss */
     .bloc_page .text-header .breadcrumb-text {
       margin-right: 5px; }
-    /* line 102, ../scss/style.scss */
+    /* line 103, ../scss/style.scss */
     .bloc_page .text-header .breadcrumb {
       padding: 0px 15px;
       margin-bottom: 0px;
       list-style: none;
       background-color: #f5f5f5;
       border-radius: 4px; }
-      /* line 110, ../scss/style.scss */
+      /* line 111, ../scss/style.scss */
       .bloc_page .text-header .breadcrumb > li {
         display: inline-block; }
-        /* line 112, ../scss/style.scss */
+        /* line 113, ../scss/style.scss */
         .bloc_page .text-header .breadcrumb > li + li:first-child {
           content: none; }
-        /* line 116, ../scss/style.scss */
+        /* line 117, ../scss/style.scss */
         .bloc_page .text-header .breadcrumb > li + li:before {
           content: "/\00a0";
           padding: 0 5px;
           color: #2f86a8; }
-      /* line 123, ../scss/style.scss */
+      /* line 124, ../scss/style.scss */
       .bloc_page .text-header .breadcrumb > .active {
         color: #909090; }
-  /* line 128, ../scss/style.scss */
+  /* line 129, ../scss/style.scss */
   .bloc_page .search {
     float: right; }
     @media (max-width: 992px) {
-      /* line 128, ../scss/style.scss */
+      /* line 129, ../scss/style.scss */
       .bloc_page .search {
         float: none; }
-        /* line 134, ../scss/style.scss */
+        /* line 135, ../scss/style.scss */
         .bloc_page .search .input-group {
           width: 100%;
           display: table; }
-          /* line 138, ../scss/style.scss */
+          /* line 139, ../scss/style.scss */
           .bloc_page .search .input-group .input-group-btn {
             width: 1%; } }
-  /* line 149, ../scss/style.scss */
+  /* line 150, ../scss/style.scss */
   .bloc_page .container-circle a {
     text-decoration: none;
     color: black; }
-  /* line 154, ../scss/style.scss */
+  /* line 155, ../scss/style.scss */
   .bloc_page .container-circle div {
     padding: 20px 0; }
-  /* line 160, ../scss/style.scss */
+  /* line 161, ../scss/style.scss */
   .bloc_page .circle {
     background-color: white;
     height: 200px;
@@ -6200,58 +6200,71 @@ button.close {
     border-radius: 100px;
     border: 4px double #E7E7E7;
     margin: 0 auto; }
-    /* line 169, ../scss/style.scss */
+    /* line 170, ../scss/style.scss */
     .bloc_page .circle:focus, .bloc_page .circle:hover {
       border: 4px double #2280a8;
       -webkit-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
-    /* line 174, ../scss/style.scss */
+    /* line 175, ../scss/style.scss */
     .bloc_page .circle p {
       font-size: 12px;
       line-height: 14px;
       max-width: 75%;
       margin: auto;
       padding-bottom: 39px; }
-    /* line 182, ../scss/style.scss */
+    /* line 183, ../scss/style.scss */
     .bloc_page .circle hr {
       margin: 10px 0; }
-    /* line 186, ../scss/style.scss */
+    /* line 187, ../scss/style.scss */
     .bloc_page .circle .content-circle {
       padding: 15px 0;
       line-height: 200px; }
-      /* line 190, ../scss/style.scss */
+      /* line 191, ../scss/style.scss */
       .bloc_page .circle .content-circle i.fa {
         display: block !important;
         position: relative !important; }
-  /* line 197, ../scss/style.scss */
+  /* line 198, ../scss/style.scss */
   .bloc_page .bs-callout {
     padding: 20px;
     margin: 20px 0;
     border: 3px solid #e3e2e2;
     border-radius: 3px;
     background-color: #ecebeb; }
-    /* line 204, ../scss/style.scss */
+    /* line 205, ../scss/style.scss */
     .bloc_page .bs-callout .btn {
       width: 100%; }
-  /* line 211, ../scss/style.scss */
+  /* line 212, ../scss/style.scss */
   .bloc_page .owl-carousel a {
     color: black;
     text-decoration: none; }
-  /* line 216, ../scss/style.scss */
+  /* line 217, ../scss/style.scss */
   .bloc_page .owl-carousel h4, .bloc_page .owl-carousel small {
     color: black; }
-  /* line 220, ../scss/style.scss */
+  /* line 221, ../scss/style.scss */
   .bloc_page .owl-carousel hr {
     margin: 2px; }
-  /* line 225, ../scss/style.scss */
+  /* line 226, ../scss/style.scss */
   .bloc_page .footer {
     color: #777; }
-  /* line 229, ../scss/style.scss */
+  /* line 230, ../scss/style.scss */
   .bloc_page .customPrevBtn, .bloc_page .customNextBtn {
     border-radius: 50%; }
+  /* line 236, ../scss/style.scss */
+  .bloc_page article h3 {
+    margin-top: 10px; }
+  /* line 240, ../scss/style.scss */
+  .bloc_page article .info {
+    border-top: 1px solid #C7C7C7;
+    border-bottom: 1px solid #C7C7C7;
+    padding: 5px 0;
+    margin-bottom: 14px;
+    color: #777; }
+  /* line 248, ../scss/style.scss */
+  .bloc_page article .article-footer {
+    padding: 10px 0; }
 
-/* line 236, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .footer .header-footer {
   padding-top: 22px;
   background-color: #323232;
@@ -6259,29 +6272,30 @@ button.close {
   bottom: 12px;
   z-index: 1;
   border-top: 2px solid #4c4c4c; }
-  /* line 244, ../scss/style.scss */
+  /* line 264, ../scss/style.scss */
   .footer .header-footer li {
     margin: 10px 0; }
-    /* line 247, ../scss/style.scss */
+    /* line 267, ../scss/style.scss */
     .footer .header-footer li a {
       text-decoration: none;
       color: white; }
-  /* line 254, ../scss/style.scss */
+  /* line 274, ../scss/style.scss */
   .footer .header-footer img {
     margin-right: 10px; }
-  /* line 259, ../scss/style.scss */
+  /* line 279, ../scss/style.scss */
   .footer .header-footer p {
     font-size: 12px;
     line-height: 18px;
     color: #c4c4c4; }
 
-/* line 267, ../scss/style.scss */
+/* line 287, ../scss/style.scss */
 .btn-primary {
   background: #404040;
   color: white;
+  border-color: #777777;
   -webkit-transition: all, 0.5s, ease, 0s;
   -o-transition: all, 0.5s, ease, 0s;
   transition: all, 0.5s, ease, 0s; }
-  /* line 272, ../scss/style.scss */
+  /* line 293, ../scss/style.scss */
   .btn-primary:hover {
     background: #279fcc; }
