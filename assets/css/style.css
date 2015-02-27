@@ -2042,7 +2042,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.42857;
-  color: white; }
+  color: #555; }
 
 /* line 115, ../scss/bootstrap/_forms.scss */
 .form-control {
@@ -2052,7 +2052,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857;
-  color: white;
+  color: #555;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -2081,7 +2081,7 @@ output {
   /* line 141, ../scss/bootstrap/_forms.scss */
   .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
     cursor: not-allowed;
-    background-color: white;
+    background-color: #eee;
     opacity: 1; }
 
 /* line 153, ../scss/bootstrap/_forms.scss */
@@ -3212,7 +3212,7 @@ tbody.collapse.in {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: white;
+  color: #555;
   text-align: center;
   background-color: white;
   border: 1px solid #ccc;
